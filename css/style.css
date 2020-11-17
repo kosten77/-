@@ -1,0 +1,184 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.header_fixed{
+    display: flex;
+    justify-content: space-between;	
+}
+.logo {
+    padding: 10px 0;
+    
+}
+
+.container{
+    padding: 0 300px;
+}
+.promo{
+    margin: -250px 0 0;
+    min-height: 780px;
+    background: url(../img/header_img.jpg) center center/cover no-repeat;
+}
+header{
+    position: relative;
+    height: 150px;
+}
+nav{
+    position: fixed; 
+    width: 100%; 
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_item{
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.nav_item>a{
+    color: #282830;
+    text-decoration: none;
+    opacity: .85;
+    transition: opacity 0.3s ease;
+}
+.nav_item> a:hover{
+    opacity: 1;
+    color:  #282830;
+}
+.promo_mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.promo_mobile>a{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #282830;
+    text-decoration: none;
+    opacity: .95;
+    transition: opacity 0.3s ease;
+}
+.promo_mobile>a:hover{
+    color:#FF4949;
+    opacity: 1;
+
+}
+.promo_content{
+    width: 565px;
+    padding-top: 290px;
+    
+}
+.promo_content h1{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.promo_content .header_descr{
+    margin-top: 40px;   
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.promo_content button{
+    margin-top: 40px;
+    width: 250px;
+    height: 56px;
+    background: #FF4949;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(44, 44, 44);
+}
+.promo_content button:hover{
+    box-shadow: 2px 2px rgb(44, 44, 44);
+    outline: none;
+}
+.promo_content button:active{
+    box-shadow:none;
+    outline: none;
+}
+.promo_content button:visited{
+    box-shadow:none;
+    outline: none;
+}
+.advantage h2{
+    margin-top: 34px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #282830;
+}
+.advantage_text{
+    margin-top: 30px;
+}
+.advantage p{ 
+    padding: 5px 0;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+.advantage_promo{
+    
+
+}
+.advantage_promo h2{
+    
+}
+.advantage_content{
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.advantage_item {
+   width: 15%;
+}
+.advantage_subtitle{
+    margin-top: 34px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.advantage_icon{
+    text-align: center;
+}
+.advantage_icon>i{
+    margin-top: 34px;
+    font-size: 100px;
+    color:#FF4949 ;
+}
+.whats_app_fixed{
+    position: relative;
+}
+.whats_app_fixed>a>img{
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+}
