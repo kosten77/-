@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 .header_fixed{
@@ -28,6 +29,22 @@ nav{
     height: 110px;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 2;
+}
+h2{
+    margin-top: 34px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #282830;
+}
+h3{
+    margin-top: 34px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #282830; 
 }
 .nav{
     display: flex;
@@ -121,14 +138,7 @@ nav{
     box-shadow:none;
     outline: none;
 }
-.advantage h2{
-    margin-top: 34px;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
-    color: #282830;
-}
+
 .advantage_text{
     margin-top: 30px;
 }
@@ -142,13 +152,6 @@ nav{
     line-height: 23px;
     text-align: center;
     color: #000000;
-}
-.advantage_promo{
-    
-
-}
-.advantage_promo h2{
-    
 }
 .advantage_content{
     margin-top: 34px;
@@ -178,7 +181,43 @@ nav{
     position: relative;
 }
 .whats_app_fixed>a>img{
+    border-radius: 100%;
     position: fixed;
     right: 70px;
     bottom: 70px;
+    box-shadow: 0 0 40px rgba(70, 247, 70, 0.5);
+    
+}
+.whats_app_fixed>a>img:hover{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 70px rgba(4, 189, 4, 0.8);
+    padding: 5px;
+    transition: all 0.8s ease;
+}
+.whats_app_fixed>a>img:active{
+    padding: 10px;
+    border: 2px solid #FF4949;
+    transition: all 0.5s;
+}
+.what_work{
+    min-height: 900px;
+}
+.useful_content{
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.useful_item{
+    width: 27%;
+    margin-top: 34px;
+}
+.useful_image{
+    
+}
+.useful_image>img{
+    width: 100%;
+}
+.useful_text{
 }
